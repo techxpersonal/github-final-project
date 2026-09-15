@@ -1,6 +1,6 @@
-# Simple Interest Calculator
+# Simple Interest Calculator (Java)
 
-A small command-line project that calculates simple interest from a principal amount, annual rate of interest, and time in years.
+A small Java command-line project that calculates simple interest from a principal amount, annual rate of interest, and time in years.
 
 ## Formula
 
@@ -8,16 +8,24 @@ A small command-line project that calculates simple interest from a principal am
 
 ## Requirements
 
-- Bash (Git Bash, WSL, Linux, or macOS)
+- Java Development Kit (JDK) 17 or later
+- Visual Studio Code with the **Extension Pack for Java** (recommended)
 
 ## Run it
 
-```bash
-chmod +x simple-interest.sh
-./simple-interest.sh
+```powershell
+javac -d out src\SimpleInterestCalculator.java
+java -cp out SimpleInterestCalculator
 ```
 
-Enter numeric values when prompted. The result is displayed to two decimal places.
+Enter non-negative numeric values when prompted. The result is displayed to two decimal places.
+
+## Run in Visual Studio Code
+
+1. Open this folder in VS Code.
+2. Open `src/SimpleInterestCalculator.java`.
+3. Select **Run** above the `main` method, or press `F5`.
+4. Type the requested values in the integrated terminal.
 
 ## Example
 
