@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 /**
- * Calculates simple interest using: principal × annual rate × time / 100.
+ * Calculates simple interest using: principal * annual rate * time / 100.
  */
 public final class SimpleInterestCalculator {
     private SimpleInterestCalculator() {
